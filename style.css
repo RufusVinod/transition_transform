@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 250px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+nav h1{
+    font-size: 56px;
+    transition-duration: 3.5s, 3.5s;
+
+}
+
+nav h1:hover{
+    transform: translate(30px);
+    transition-duration: 3.5s, 3.5s;
+}
+
+ul{
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: blue;
+}
+
+li{
+    position: relative;
+    float: left;
+    margin-left: 100px;
+   
+
+
+}
+
+li:hover{
+    transform: scale(1.5);
+    transition-duration: 1.5s; 
+}
+
+
+/*------------------------- main -----------*/
+
+main{
+    position: relative;
+    height: 400px;
+}
+
+
+.main_image{
+    height: 300px;
+    width: 450px;
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    overflow: hidden;
+
+}
+
+.main_image>img{
+    height: 100%;
+    width: 100%;
+    transition-duration: 1.5s ;
+}
+
+.main_image>img:hover{
+    transform: scale(1.5);
+}
+
+.content{
+    height: 400px;
+    width: 59%;
+    position: relative;
+    float: right;
+    transition-duration: 1.5s;
+    overflow: hidden;
+
+}
+
+.content h2{
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.content p{
+    position: absolute;
+    max-width: 600px;
+    top: 100px;
+    left: 100px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.content button{
+    position: relative;
+    background-color: blue;
+    padding: 10px 18px;
+    top: 250px;
+    left:100px;
+    color: white;
+    border-radius: 30px;
+    border: none
+}
+
+
+.content:hover{
+    transform: skew(15deg);
+}
+.content:hover>button{
+    background-color: black;
+}
+
+
+/*---------------- product section------------*/
+
+
+section{
+    position: relative;
+    height: 800px;
+    position: relative;
+}
+
+section h1{
+    position: relative;
+    text-align: center;
+    font-size: 46px;
+    top: 60px;
+}
+
+.product{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    background-color: bisque;
+    float: left;
+    top: 100px;
+    margin-left: 90px;
+    margin-top: 50px;
+    transition-duration: 2s;
+}
+
+.image1{
+    background-image: url(./Transsition/im3.jpg);
+    border-radius: 10px;
+    transform: skew(-10deg);    
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px grey ;
+
+
+}
+
+.image1:hover{
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px red;
+    transform: skew(0deg);    
+
+
+}
+
+.image2{
+    background-image: url(./Transsition/im4.jpg);
+    box-sizing: content-box;    
+    border-radius: 10px;
+    transform: skewY(-10deg);    
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px  grey ;
+    background-size: 100% 100%;
+
+    
+}
+
+.image2:hover{
+    transition-duration: 2s;
+    box-shadow: 5px -5px 10px 10px red;
+    transform: skewY(0deg);  
+
+
+}
+
+.image3{
+    background-image: url(./Transsition/im6.jpg);
+    box-sizing: content-box;    
+    border-radius: 10px;
+    transform:rotate(-10deg);    
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px  grey ;
+    background-size: 100% 100%;
+}
+
+.image3:hover{
+    transition-duration: 2s;
+    box-shadow: 5px -5px 10px 10px red;
+    transform:rotate(0deg);    
+
+
+}
+
+.image4{
+    background-image: url(./Transsition/im4.jpg);
+    box-sizing: content-box;    
+    border-radius: 10px;
+    transform:rotate(10deg);    
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px  grey ;
+    background-size: 100% 100%;
+}
+
+.image4:hover{
+ transition-duration: 2s;
+    box-shadow: 5px -5px 10px 10px red;
+    transform:rotate(0deg);  
+
+}
+
+.image5{
+    background-image: url(./Transsition/im5.jpg);
+    box-sizing: content-box;    
+    border-radius: 10px;
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px  grey ;
+    background-size: 100% 100%;
+    border: 1px solid black;
+}
+
+.image5:hover{
+    transition-duration: 2s;
+    box-shadow: 5px -5px 10px 10px red;
+    transform: scale(1.1);
+
+
+}
+
+.image6{
+    background-image: url(./Transsition/im6.jpg);
+    box-sizing: content-box;    
+    border-radius: 10px;
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px  grey ;
+    background-size: 100% 100%;
+    border: 1px solid black;
+}
+.image6:hover{
+    transition-duration: 2s;
+    box-shadow: 5px -5px 10px 10px red;
+    transform: scale(0.75);
+
+
+}
+
+.image7{
+    background-image: url(./Transsition/im7.jpg);
+    box-sizing: content-box;    
+    border-radius: 10px;
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px  grey ;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    transform: scale(0.75);
+
+}
+
+.image7:hover{
+    transition-duration: 2s;
+    box-shadow: 5px -5px 10px 10px red;
+    transform: scale(1);
+}
+
+.image8{
+    background-image: url(./Transsition/im8.jpg);
+        box-sizing: content-box;    
+    border-radius: 10px;
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px  grey ;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    transform: scale(1.1);
+}
+
+.image8:hover{
+    transition-duration: 2s;
+    box-shadow: 5px -5px 10px 10px red;
+    transform: scale(1);
+}
+
+
+
+/*---------------- chef section------------*/
+
+
+
+.image9{
+    background-image: url(./Transsition/chef1.jpg);
+    border-radius: 10px;
+    transform: skew(0deg);    
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px grey ;
+    background-size: 100% 100%;
+
+
+}
+
+.image9:hover{
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px blue;
+    transform: skew(-10deg);    
+
+
+}
+
+.image10{
+    background-image: url(./Transsition/chef2.jpg);
+    box-sizing: content-box;    
+    border-radius: 10px;
+    transform: skew(-10deg);    
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px grey ;
+    background-size: 100% 100%;
+    
+}
+
+
+.image10:hover{
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px blue;
+    transform: rotate(-10deg);  
+}
+
+
+.image11{
+    background-image: url(./Transsition/chef3.jpg);
+    box-sizing: content-box;    
+    border-radius: 10px;
+    transform: rotateX(50deg);    
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px grey ;
+    background-size: 100% 100%;
+    
+}
+
+
+.image11:hover{
+    transition-duration: 2s;
+    box-shadow: 5px -5px 10px 10px blue;
+    transform: rotateX(0deg);    
+
+
+}
+
+.image12{
+    background-image: url(./Transsition/chef4.jpg);
+    box-sizing: content-box;    
+    border-radius: 10px;
+    transform: rotateY(40deg);    
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px grey ;
+    background-size: 100% 100%;
+}
+
+.image12:hover{
+    transition-duration: 2s;
+    box-shadow: 5px -5px 10px 10px blue;
+    transform: rotateY(0deg);    
+
+
+}
+
+.image13{
+    background-image: url(./Transsition/chef5.jpg);
+    box-sizing: content-box;    
+    border-radius: 10px;
+    transform: rotate(0deg);    
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px grey ;
+    background-size: 100% 100%;
+}
+
+.image13:hover{
+    transition-duration: 2s;
+    box-shadow: 5px -5px 10px 10px blue;
+    transform: rotate(40deg);    
+
+
+}
+
+
+.image14{
+    background-image: url(./Transsition/chef6.jpg);
+    box-sizing: content-box;    
+    border-radius: 10px;
+    transform: rotate(0deg);    
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px grey ;
+    background-size: 100% 100%;
+}
+
+.image14:hover{
+    transition-duration: 2s;
+    box-shadow: 5px -5px 10px 10px blue;
+    transform: rotate(-40deg);    
+
+
+}
+
+.image15{
+    background-image: url(./Transsition/chef7.jpg);
+    box-sizing: content-box;    
+    border-radius: 10px;
+    transition-duration: 2s;
+    box-shadow: 3px -5px 5px 10px grey ;
+    background-size: 100% 100%;
+}
+
+.image15:hover{
+    transition-duration: 2s;
+    box-shadow: 5px -5px 10px 10px blue;
+    transform: scale(0.75);    
+
+
+}
+
+.image16{
+    background-image: url(./Transsition/chef8.jpg);
+    box-sizing: content-box;    
+    border-radius: 10px;
+    transition-duration: 2s;    
+    transform: scale(1.1);    
+    box-shadow: 3px -5px 5px 10px grey ;
+    background-size: 100% 100%;
+}
+
+.image16:hover{
+    transition-duration: 2s;
+    box-shadow: 5px -5px 10px 10px blue;
+    transform: scale(1);    
+
+
+}
+
+/*---------------- END ------------*/
